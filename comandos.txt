@@ -1,6 +1,6 @@
-composer create-project --prefer-dist laravel/laravel carrinhoDeCompras 5.3
-php artisan make:model Produto -m
-php artisan make:model CupomDesconto -m
+composer create-project --prefer-dist laravel/laravel CarrinhoCompras 5.3
+php artisan make:model models/Produto -m
+php artisan make:model models/CupomDesconto -m
 php artisan migrate
 
 php artisan make:controller HomeController
