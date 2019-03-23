@@ -4,8 +4,8 @@ namespace App\models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Produto extends Model
+class PedidoProduto extends Model
 {
-	protected $table = 'cad_produto';
+    protected $table = 'cad_pedido_produto';
     //
 }
